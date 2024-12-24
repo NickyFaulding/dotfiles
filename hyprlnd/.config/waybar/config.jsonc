@@ -17,6 +17,7 @@
     "modules-right": [
         "pulseaudio",
         "cpu",
+        "custom/gpu-usage",
         "memory",
         "temperature",
         "clock"

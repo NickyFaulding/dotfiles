@@ -5,6 +5,13 @@
         "tooltip-format": "btw"
     },
 
+    "custom/gpu-usage": {
+        "format": "{} {icon}",
+        "exec": "gpu-usage-waybar",
+        "return-type": "json",
+        "format-icons": "󰾲",
+        "on-click": "kitty nvtop"
+    },
 
     "hyprland/workspaces": {
         "disable-scroll": true,
